@@ -1,0 +1,55 @@
+{
+  "CLIENTES": {
+    "CLIENTE1": {
+      "APELLIDOS": "Cu T-rex",
+      "CORREO": "jadiel@gmail.com",
+      "DIRECCION": "ZONA 2",
+      "NOMBRE": "Jadiel",
+      "TELEFONO": "4615-3245",
+      "idcliente": 1
+    }
+  },
+  "DETALLESORDEN": {
+    "DETAORDEB 1": {
+      "CANTIDAD": 2,
+      "PRECIOUNITARIO": 4000,
+      "iddetalle": 1,
+      "idorden": 1,
+      "idproducto": 1
+    }
+  },
+  "FACTURAS": {
+    "FACTURA 1": {
+      "FECHA": "2023/03/13",
+      "TOTAL": 4000,
+      "idfactura": 1,
+      "idorden": 1
+    }
+  },
+  "ORDENES": {
+    "ORDEN 1": {
+      "FECHA": "2023/03/12",
+      "idcliente": 1,
+      "idordenes": 1,
+      "total": 4000
+    }
+  },
+  "PRODUCTOS": {
+    "PRODUCTO 1": {
+      "DESCRIPCION": "Tela sintética parecida a la piel del zorro",
+      "NOMBRE": "Piel de zorro",
+      "PRECIO": 2000,
+      "STOCK": 233,
+      "idproducto": 1
+    }
+  },
+  "PROVEEDORES": {
+    "PROVEEDOR 1": {
+      "CORREO": "pieldezorra@gmail.com",
+      "DIRECCION": "zona 6",
+      "NOMBRE": "Nery García Cu",
+      "TELEFONO": "1232-6545",
+      "idproveedor": 1
+    }
+  }
+}
