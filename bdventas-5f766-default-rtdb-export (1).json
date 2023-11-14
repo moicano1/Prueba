@@ -1,0 +1,68 @@
+{
+  "PIELES SINTETICAS": [
+    {
+      "CAMPOS": {
+        "CLIENTES": {
+          "CORREO": "jadielcu@gmail.com",
+          "DIRECCION": "Campur",
+          "NOMBRE": "Jadiel Cu T-rex",
+          "TELEFONO": "1235-7894",
+          "idcliente": 1
+        }
+      }
+    },
+    {
+      "CAMPOS": {
+        "ORDENES": {
+          "FECHA": "2023/11/7",
+          "TOTAL": 4000,
+          "idcliente": 1,
+          "idorden": 1
+        }
+      }
+    },
+    {
+      "CAMPOS": {
+        "FACTURAS": {
+          "FECHA": "2023/11/7",
+          "TOTAL": 4000,
+          "idfactura": 1,
+          "idorden": 1
+        }
+      }
+    },
+    {
+      "CAMPOS": {
+        "PRODUCTOS": {
+          "DESCRIPCION": "Tela sintética parecida a la piel del zorro",
+          "NOMBRE": "Piel de zorro",
+          "PRECIO": 2000,
+          "STOCK": 233,
+          "idproducto": 1
+        }
+      }
+    },
+    {
+      "CAMPOS": {
+        "DETALLES DE ORDEN": {
+          "CANTIDAD": 2,
+          "PrecioUnitario": 4000,
+          "iddetalles": 1,
+          "idorden": 1,
+          "idproducto": 1
+        }
+      }
+    },
+    {
+      "CAMPOS": {
+        "PROVEEDOR": {
+          "CORREO": "pieldezorra@gmail.com",
+          "DIRECCION": "zona 6",
+          "NOMBRE": "Nery García Cu",
+          "TELEFONO": "1232-6545",
+          "idproveedor": 1
+        }
+      }
+    }
+  ]
+}
